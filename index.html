@@ -5,8 +5,134 @@
     <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  		<header class="page-header">
+  			<div class="container">
+	  			<div class="header-logo">
+	  				<img src="http://placehold.it/150x100">
+	  			</div>
+  			</div>
+  			<nav class="main-menu">
+  				<ul class="menu-list">
+  					<li><a href="#">Информация</a></li>
+  					<li><a href="#">Новости</a></li>
+  					<li><a href="#">Прайсл-лист</a></li>
+  					<li><a href="#">Магазин</a></li>
+  					<li><a href="#">Контакти</a></li>
+  				</ul>
+  			<div class="user-block">
+  				<a href="#">Вход</a>
+  			</div>			
+  		</header>
+  		<main class="main-content">
+  			<h1 class="section-title">Средства для ухода</h1>
+  			<div class="bread-crumbs">
+  				<a href="#">Главная</a>
+  				<a href="#">Магазин</a>
+  				<a href="#">Средства для ухода</a>
+  			</div>
+  			<div class="brand-filter">
+  				<form method="post" action="">
+  					<h2 class="filter-title">Производители</h2>
+  					<label for="baxter-of-california">Baxter of california</label>
+  					<input type="checkbox" name="baxter-of-california" id="baxter-of-california" checked><br>
+  					<label for="mr-natty">mr-natty</label>
+  					<input type="checkbox" name="mr-natty" id="mr-natty"><br>
+  					<label for="suavecito">suavecito</label>
+  					<input type="checkbox" name="suavecito" id="suavecito" checked><br>
+  					<label for="malin+goets">malin+goets</label>
+  					<input type="checkbox" name="malin+goets" id="malin+goets"><br>
+  					<label for="murray's">murray's</label>
+  					<input type="checkbox" name="murray's" id="murray's"><br>
+  					<label for="american-crew">american-crew</label>
+  					<input type="checkbox" name="american-crew" id="american-crew" checked>
+  					<h2 class="filter-title">Группы товаров:</h2>
+  					<label for="shave-group">Бритвинные принадлежности</label>
+  					<input type="radio" name="item-group" id="shave-group" value="shave"><br>
+  					<label for="care-group">Средства для ухода</label>
+  					<input type="radio" name="item-group" id="care-group" value="care"><br>
+  					<label for="acsessories-group">Аксессуары</label>
+  					<input type="radio" name="item-group" id="acsessories-group" value="acsessories"></br>
+  					<input type="submit" value="Показать">
+  				</form>
+  			</div>
+  			<div class="goods">
+  				<ul class="goods-list">
+  					<li>
+  						<img src="http://placehold.it/150x100">
+  						<h3 class="goods-item-title">Набор для путишествий &lt;&lt;Baxter of california&gt;&gt;</h3> 
+  						<div class="price-and-buy">
+  							<b class="price-item">2900 руб.</b>
+  							<a class="btn itme-price-btn" href="#">Купить</a>
+  						</div>
+  					</li>
+  					<li>
+  						<img src="http://placehold.it/150x100">
+  						<h3 class="goods-item-title">Увлажняющий кондиционер &lt;&lt;Baxter of california&gt;&gt;</h3> 
+  						<div class="price-and-buy">
+  							<b class="price-item">750 руб.</b>
+  							<a class="btn itme-price-btn" href="#">Купить</a>
+  						</div>
+  					</li>
+  					<li>
+  						<img src="http://placehold.it/150x100">
+  						<h3 class="goods-item-title">Гель для волос &lt;&lt;suavecito&gt;&gt;</h3> 
+  						<div class="price-and-buy">
+  							<b class="price-item">290 руб.</b>
+  							<a class="btn itme-price-btn" href="#">Купить</a>
+  						</div>
+  					</li>
+  					<li>
+  						<img src="http://placehold.it/150x100">
+  						<h3 class="goods-item-title">Глина для укладки волос &lt;&lt;American crew&gt;&gt;</h3> 
+  						<div class="price-and-buy">
+  							<b class="price-item">500 руб.</b>
+  							<a class="btn itme-price-btn" href="#">Купить</a>
+  						</div>
+  					</li>
+  					<li>
+  						<img src="http://placehold.it/150x100">
+  						<h3 class="goods-item-title">Гель для волос &lt;&lt;American crew&gt;&gt;</h3> 
+  						<div class="price-and-buy">
+  							<b class="price-item">300 руб.</b>
+  							<a class="btn itme-price-btn" href="#">Купить</a>
+  						</div>
+  					</li>
+  					<li>
+  						<img src="http://placehold.it/150x100">
+  						<h3 class="goods-item-title">Набо для бритья &lt;&lt;Baxter of california&gt;&gt;</h3> 
+  						<div class="price-and-buy">
+  							<b class="price-item">3900 руб.</b>
+  							<a class="btn itme-price-btn" href="#">Купить</a>
+  						</div>
+  					</li>
+  				</ul>
+  				<div class="goods-nav">
+  				<a class="btn goods-nav-btn" href="#">1</a>
+  				<a class="btn goods-nav-btn" href="#">2</a>
+  				<a class="btn goods-nav-btn" href="#">3</a>
+  				<a class="btn goods-nav-btn" href="#">4</a>
+  			</div>
+  		</main>
+    	<footer class="page-footer">
+    		<section class="footer-contacts">
+    			<p>Барбершоп  &lt;&lt;Бородинский&gt;&gt;<br>
+    			Адрес: г. Санкт Петербург,ул Б.Коношенная,Д 19/8<br>
+    			<a href="#">Как нас найти</a><br>
+    			телефон: +7 (495) 666-02-66
+    		</section>
+    		<section class="footer-social">
+    			<b>Давайте дружить</b>
+    			<ul class="social-list">
+    				<li><a class="btn social-btn" href="#">Вконтакте</a>
+    				<li><a class="btn social-btn" href="#">Facebook</a>
+    				<li><a class="btn social-btn" href="#">Instagram</a>
+    			</ul>
+    		</section>
+    		<section class="footer-copyright">
+    			<p>Разработано</p>
+    			<a class="btn footer-copiright-btn" href="#">htmlacademy.ru</a>
+    		</section>
+    	</footer>
 
   </body>
 </html>
