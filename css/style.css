@@ -1,0 +1,6 @@
+body {
+	background: grey;
+}
+.news-and-gallery {
+	background-image: url(../img/news-and-gallery-layout.jpg);
+}
